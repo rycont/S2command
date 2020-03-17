@@ -25,6 +25,8 @@
     "notabase": "^0.9.4",
     "parcel": "^1.12.4",
     "ts-node": "^8.6.2",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "minimist": ">=1.2.2",
+    "acorn": ">=5.7.4"
   }
 }
