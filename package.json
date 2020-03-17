@@ -4,7 +4,8 @@
   "description": "",
   "main": "format.js",
   "scripts": {
-    "dev": "ts-node prebuild.ts && parcel ./src/popup/index.html ./src/bg.ts"
+    "dev": "ts-node prebuild.ts && parcel ./src/popup/index.html ./src/bg.ts",
+    "build": "ts-node prebuild.ts && parcel build ./src/popup/index.html ./src/bg.ts --no-source-maps"
   },
   "repository": {
     "type": "git",
