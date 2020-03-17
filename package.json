@@ -1,0 +1,30 @@
+{
+  "name": "shortcut2command",
+  "version": "1.0.0",
+  "description": "",
+  "main": "format.js",
+  "scripts": {
+    "dev": "ts-node prebuild.ts && parcel ./src/popup/index.html ./src/bg.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactericdev/shortcut2command.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reactericdev/shortcut2command/issues"
+  },
+  "homepage": "https://github.com/reactericdev/shortcut2command#readme",
+  "devDependencies": {
+    "@types/chrome": "0.0.98",
+    "fs-extra": "^8.1.0",
+    "hotkeys": "^1.0.0",
+    "hotkeys-js": "^3.7.3",
+    "notabase": "^0.9.4",
+    "parcel": "^1.12.4",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}

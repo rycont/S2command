@@ -1,0 +1,15 @@
+{
+    "name": "S2_Command",
+    "description": "단축키를 코드로!",
+    "version": "1",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": ["./bg.js"]
+        }
+    ],
+    "manifest_version": 2,
+    "permissions": ["tabs", "http://*/*", "https://*/*", "storage"]
+}
