@@ -24,7 +24,7 @@
     "hotkeys": "^1.0.0",
     "hotkeys-js": "^3.7.3",
     "notabase": "^0.9.4",
-    "parcel": "^1.12.4",
+    "parcel": "^2.8.2",
     "ts-node": "^8.6.2",
     "typescript": "^3.8.3",
     "minimist": ">=1.2.2",
